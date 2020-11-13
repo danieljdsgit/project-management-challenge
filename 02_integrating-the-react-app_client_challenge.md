@@ -165,7 +165,7 @@ class ProjectList extends Component {
     return (
       <div>
         <div>
-          {[/* lista de projects*/].map((project) => {
+          {/* lista de projects*/.map((project) => {
             return (
               // usamos el '_id' de cada project como 'key'
               <div key={project._id}>
