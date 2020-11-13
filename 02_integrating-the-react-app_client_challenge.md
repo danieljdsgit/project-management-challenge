@@ -62,9 +62,8 @@ class AddProject extends Component {
     // 3ro - utilizamos axios, y su método "post" para conectar con nuestra ruta del backend que crea un nuevo project. Le pasamos un objeto con las dos variables antes creadas.
     axios
       .post(
-        [
           /*-> ruta post del backend<-*/
-        ],
+        ,
         {
           /* variables necesarias para crear una nuevo project */
         }
